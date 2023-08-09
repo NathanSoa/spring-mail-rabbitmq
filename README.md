@@ -10,6 +10,8 @@ I'm using the [RabbitMQ](https://www.rabbitmq.com/) as a message broker, [JavaMa
 
 ## How to run
 
+Change your email credentials on [application.properties](https://github.com/NathanSoa/spring-mail-rabbitmq/blob/main/src/main/resources/application.properties)
+
 Make sure you have [Docker and Docker Compose](https://www.docker.com/) installed and running.
 
 Run the following command to start the application:
@@ -18,7 +20,7 @@ Run the following command to start the application:
 docker-compose up
 ```
 
-The application will be available at [http://localhost:8080](http://localhost:8080).
+The application will be available at [http://localhost:8080](http://localhost:8080)
 
 ## How to use
 
